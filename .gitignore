@@ -4,3 +4,5 @@ pkg
 pkg/*
 .*
 src/github.com
+# pycharm
+.idea
