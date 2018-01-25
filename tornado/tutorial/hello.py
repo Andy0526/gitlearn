@@ -16,7 +16,10 @@ def make_parse():
 
 class IndexHandler(tornado.web.RequestHandler):
     def get(self, *args, **kwargs):
+        import traceback
+        traceback.print_exc()
         greeting = self.get_argument('greeting', default='Hello')
+        print(type(self), self)
         self.write(greeting + ', friendly user!')
 
 
