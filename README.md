@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 只需要选择⼀个⽬录作为⼯作空间， 然后将GOPAT环境 变量设置为该路径。必要时， Go语⾔⼯具会创建⽬录。 例如：
 
 ```shell
@@ -19,4 +18,3 @@ go version go1.5 linux/amd64
 如果使⽤其他的操作系统, 请参考 <https://golang.org/doc/install> 提供的说明安装。
 =======
 # gitlearn
->>>>>>> 2e93c3bf8f32c04f7c02abafaeb3a93cf31dd7e4
