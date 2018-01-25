@@ -5,4 +5,18 @@ pkg/*
 .*
 src/github.com
 # pycharm
+.DS_Store
 .idea
+*.pyc
+*.log
+*.pid
+*.swp
+temp
+.project
+.pydevproject
+.settings
+.bak
+test.sh
+src/*
+src
+venv
