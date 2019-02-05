@@ -10,4 +10,4 @@ parameters = pika.ConnectionParameters(host='172.16.10.161',
 connection = pika.BlockingConnection(parameters)
 
 channel = connection.channel()
-print connection, channel
+print(connection, channel)

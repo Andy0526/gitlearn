@@ -19,8 +19,8 @@ from qcloudsms_py.httpclient import HTTPError
 
 vvcsender = SmsVoicePromptSender(APPID, APPKEY)
 try:
-    result = vvcsender.send(86, 17611412502, 2, "你正在使用陪我，验证码是123453，请在2分钟内完成验证。",2)
-    print result
+    result = vvcsender.send(86, 17611412502, 2, "你正在使用陪我，验证码是123453，请在2分钟内完成验证。", 2)
+    print(result)
 except HTTPError as e:
     print(e)
 except Exception as e:
